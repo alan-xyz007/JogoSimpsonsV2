@@ -231,7 +231,7 @@ def start():
         quitTexto = fonteMenu.render("Sair do Game", True, preto)
         tela.blit(quitTexto, (25, 62))
 
-        texto = fonteMenu.render(f"The Best - {nome_maior} - {maior_pontos} - {dataJogada}", True, preto)
+        texto = fonteMenu.render(f"O Melhor - {nome_maior} - {maior_pontos} - {dataJogada}", True, preto)
         tela.blit(texto, (450, 5))
 
         pygame.display.update()
